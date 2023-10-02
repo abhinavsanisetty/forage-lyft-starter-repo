@@ -6,7 +6,7 @@ class OctoprimeTires(Tires):
         self.wear = wear
 
     def needs_service(self):
-        int service = 0
+        service = 0
         for i in range(4):
             service += self.wear[i]
         if service >= 3:
